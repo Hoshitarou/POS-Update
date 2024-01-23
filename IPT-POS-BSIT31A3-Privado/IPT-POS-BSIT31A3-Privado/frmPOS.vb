@@ -173,17 +173,50 @@ Public Class frmPOS
                 For Each i As ListViewItem In ListView1.Items
                     sql = "Insert into tblTransactionsDetails(TransNo,ProductCode,Amount,Qty,Total)values(@ransNo,@ProductCode,@Amount,@Qty,@Total)"
                     cmd = New OleDbCommand(sql, cn)
-                    With cmd
-                        .Parameters.AddWithValue("@TransNo", lblTransNo.Text)
-                        .Parameters.AddWithValue("@ProductCode", i.Text)
-                        .Parameters.AddWithValue("@Amount", i.SubItems(2).Text)
-                        .Parameters.AddWithValue("@Qty", i.SubItems(3).Text)
-                        .Parameters.AddWithValue("@Total", i.SubItems(4).Text)
-                    End With
+
+                    cmd.Parameters.AddWithValue("@TransNo", lblTransNo.Text)
+                    cmd.Parameters.AddWithValue("@ProductCode", i.Text)
+                    cmd.Parameters.AddWithValue("@Amount", i.SubItems(2).Text)
+                    cmd.Parameters.AddWithValue("@Qty", i.SubItems(3).Text)
+                    cmd.Parameters.AddWithValue("@Total", i.SubItems(4).Text)
+                    cmd.ExecuteNonQuery()
                 Next
+                sql = "Insert into tblPayments(TransNo,TotalAmount,AmountPaid,AmountChange,MOP,RefNo)values(@TransNo,@TotalAmount,@AmountPaid,@AmountChange,@MOP,@RefNo)"
+                cmd = New OleDbCommand(sql, cn)
+                cmd.Parameters.AddWithValue("@TransNo", lblTransNo.Text)
+                cmd.Parameters.AddWithValue("@TotalAmount", lblgtotal.Text)
+                cmd.Parameters.AddWithValue("@AmountPaid", lblAmountPaid.Text)
+                cmd.Parameters.AddWithValue("@AmountChange", lblChange.Text)
+                cmd.Parameters.AddWithValue("@MOP", lblMOP.Text)
+                cmd.Parameters.AddWithValue("@RefNo", lblRefnum.Text)
+                cmd.ExecuteNonQuery()
+                MsgBox("Transaction Successfully Saved", MsgBoxStyle.Information)
+                ListView1.Items.Clear()
+                Call resetcurrency
             End If
 
         End If
         Call getTransactionsNo()
+    End Sub
+
+    Private Sub resetcurrency()
+        lblAmountPaid.Text = "0.00"
+        lblVAT.Text = "0.00"
+        lblVsale.Text = "0.00"
+        lbltotalprod.Text = "0.00"
+        lblMOP.Text = "*********"
+        lblDisc.Text = "0.00"
+        lblRefnum.Text = "********"
+        lblgtotal.Text = "0.00"
+        txtProdCode.Text = " "
+        txtAmount.Text = " "
+        txtProdName.Text = " "
+        txtQuantity.Text = " "
+        txtCritlevel.Text = " "
+        lblStatus.Text = " "
+    End Sub
+
+    Private Sub btncancel_Click(sender As Object, e As EventArgs) Handles btncancel.Click
+        Me.Close()
     End Sub
 End Class

@@ -43,7 +43,6 @@ C:\Users\cuteaq\Downloads\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\
 C:\Users\cuteaq\Downloads\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT_POS_BSIT31A3_Privado.frmLogin.resources
 C:\Users\cuteaq\Downloads\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT_POS_BSIT31A3_Privado.frmpayment.resources
 C:\Users\cuteaq\Downloads\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT_POS_BSIT31A3_Privado.frmPOS.resources
-C:\Users\cuteaq\Downloads\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT_POS_BSIT31A3_Privado.frmTransaction.resources
 C:\Users\cuteaq\Downloads\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT_POS_BSIT31A3_Privado.Resources.resources
 C:\Users\cuteaq\Downloads\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT-POS-BSIT31A3-Privado.vbproj.GenerateResource.cache
 C:\Users\cuteaq\Downloads\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT-POS-BSIT31A3-Privado.vbproj.CoreCompileInputs.cache
@@ -52,3 +51,5 @@ C:\Users\cuteaq\Downloads\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\
 C:\Users\cuteaq\Downloads\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT-POS-BSIT31A3-Privado.xml
 C:\Users\cuteaq\Downloads\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT-POS-BSIT31A3-Privado.pdb
 C:\Users\cuteaq\Downloads\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT_POS_BSIT31A3_Privado.frmRegistration.resources
+C:\Users\cuteaq\Downloads\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT_POS_BSIT31A3_Privado.frmAddProducts.resources
+C:\Users\cuteaq\Downloads\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT_POS_BSIT31A3_Privado.frmsales.resources

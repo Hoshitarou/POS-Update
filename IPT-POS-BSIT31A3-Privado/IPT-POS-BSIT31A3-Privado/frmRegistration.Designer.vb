@@ -78,7 +78,7 @@ Partial Class frmRegistration
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(450, 553)
+        Me.Panel1.Size = New System.Drawing.Size(450, 599)
         Me.Panel1.TabIndex = 6
         '
         'cboAccesslevel
@@ -257,7 +257,7 @@ Partial Class frmRegistration
         Me.btnclose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnclose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnclose.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.btnclose.Location = New System.Drawing.Point(868, 12)
+        Me.btnclose.Location = New System.Drawing.Point(932, 12)
         Me.btnclose.Name = "btnclose"
         Me.btnclose.Size = New System.Drawing.Size(31, 24)
         Me.btnclose.TabIndex = 11
@@ -269,7 +269,7 @@ Partial Class frmRegistration
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label3.Location = New System.Drawing.Point(585, 483)
+        Me.Label3.Location = New System.Drawing.Point(638, 486)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(158, 22)
         Me.Label3.TabIndex = 10
@@ -280,7 +280,7 @@ Partial Class frmRegistration
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label2.Location = New System.Drawing.Point(505, 133)
+        Me.Label2.Location = New System.Drawing.Point(558, 136)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(324, 22)
         Me.Label2.TabIndex = 9
@@ -291,7 +291,7 @@ Partial Class frmRegistration
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Century Gothic", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label1.Location = New System.Drawing.Point(590, 79)
+        Me.Label1.Location = New System.Drawing.Point(643, 82)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(144, 44)
         Me.Label1.TabIndex = 8
@@ -301,7 +301,7 @@ Partial Class frmRegistration
         '
         Me.GunaCirclePictureBox1.BaseColor = System.Drawing.Color.White
         Me.GunaCirclePictureBox1.Image = CType(resources.GetObject("GunaCirclePictureBox1.Image"), System.Drawing.Image)
-        Me.GunaCirclePictureBox1.Location = New System.Drawing.Point(531, 173)
+        Me.GunaCirclePictureBox1.Location = New System.Drawing.Point(584, 176)
         Me.GunaCirclePictureBox1.Name = "GunaCirclePictureBox1"
         Me.GunaCirclePictureBox1.Size = New System.Drawing.Size(270, 263)
         Me.GunaCirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -314,7 +314,7 @@ Partial Class frmRegistration
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(71, Byte), Integer), CType(CType(105, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(911, 553)
+        Me.ClientSize = New System.Drawing.Size(975, 599)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.btnclose)
         Me.Controls.Add(Me.Label3)

@@ -229,6 +229,7 @@ Partial Class frmPOS
         Me.btncancel.Animated = True
         Me.btncancel.AnimationHoverSpeed = 0.07!
         Me.btncancel.AnimationSpeed = 0.03!
+        Me.btncancel.BackColor = System.Drawing.Color.Transparent
         Me.btncancel.BaseColor = System.Drawing.Color.FromArgb(CType(CType(173, Byte), Integer), CType(CType(196, Byte), Integer), CType(CType(206, Byte), Integer))
         Me.btncancel.BorderColor = System.Drawing.Color.Black
         Me.btncancel.CheckedBaseColor = System.Drawing.Color.Gray
@@ -251,6 +252,7 @@ Partial Class frmPOS
         Me.btncancel.OnHoverImage = Nothing
         Me.btncancel.OnHoverLineColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.btncancel.OnPressedColor = System.Drawing.Color.Black
+        Me.btncancel.Radius = 10
         Me.btncancel.Size = New System.Drawing.Size(97, 100)
         Me.btncancel.TabIndex = 9
         Me.btncancel.Text = "Cancel"
@@ -260,6 +262,7 @@ Partial Class frmPOS
         Me.btnsave.Animated = True
         Me.btnsave.AnimationHoverSpeed = 0.07!
         Me.btnsave.AnimationSpeed = 0.03!
+        Me.btnsave.BackColor = System.Drawing.Color.Transparent
         Me.btnsave.BaseColor = System.Drawing.Color.FromArgb(CType(CType(173, Byte), Integer), CType(CType(196, Byte), Integer), CType(CType(206, Byte), Integer))
         Me.btnsave.BorderColor = System.Drawing.Color.Black
         Me.btnsave.CheckedBaseColor = System.Drawing.Color.Gray
@@ -282,6 +285,7 @@ Partial Class frmPOS
         Me.btnsave.OnHoverImage = Nothing
         Me.btnsave.OnHoverLineColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.btnsave.OnPressedColor = System.Drawing.Color.Black
+        Me.btnsave.Radius = 10
         Me.btnsave.Size = New System.Drawing.Size(97, 100)
         Me.btnsave.TabIndex = 8
         Me.btnsave.Text = "Save"
@@ -291,6 +295,7 @@ Partial Class frmPOS
         Me.btnpay.Animated = True
         Me.btnpay.AnimationHoverSpeed = 0.07!
         Me.btnpay.AnimationSpeed = 0.03!
+        Me.btnpay.BackColor = System.Drawing.Color.Transparent
         Me.btnpay.BaseColor = System.Drawing.Color.FromArgb(CType(CType(173, Byte), Integer), CType(CType(196, Byte), Integer), CType(CType(206, Byte), Integer))
         Me.btnpay.BorderColor = System.Drawing.Color.Black
         Me.btnpay.CheckedBaseColor = System.Drawing.Color.Gray
@@ -313,6 +318,7 @@ Partial Class frmPOS
         Me.btnpay.OnHoverImage = Nothing
         Me.btnpay.OnHoverLineColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.btnpay.OnPressedColor = System.Drawing.Color.Black
+        Me.btnpay.Radius = 10
         Me.btnpay.Size = New System.Drawing.Size(97, 100)
         Me.btnpay.TabIndex = 7
         Me.btnpay.Text = "Payment"
@@ -322,6 +328,7 @@ Partial Class frmPOS
         Me.btnremove.Animated = True
         Me.btnremove.AnimationHoverSpeed = 0.07!
         Me.btnremove.AnimationSpeed = 0.03!
+        Me.btnremove.BackColor = System.Drawing.Color.Transparent
         Me.btnremove.BaseColor = System.Drawing.Color.FromArgb(CType(CType(173, Byte), Integer), CType(CType(196, Byte), Integer), CType(CType(206, Byte), Integer))
         Me.btnremove.BorderColor = System.Drawing.Color.Black
         Me.btnremove.CheckedBaseColor = System.Drawing.Color.Gray
@@ -344,6 +351,7 @@ Partial Class frmPOS
         Me.btnremove.OnHoverImage = Nothing
         Me.btnremove.OnHoverLineColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.btnremove.OnPressedColor = System.Drawing.Color.Black
+        Me.btnremove.Radius = 10
         Me.btnremove.Size = New System.Drawing.Size(97, 84)
         Me.btnremove.TabIndex = 6
         Me.btnremove.Text = "Remove"
@@ -353,6 +361,7 @@ Partial Class frmPOS
         Me.btnAddToCart.Animated = True
         Me.btnAddToCart.AnimationHoverSpeed = 0.07!
         Me.btnAddToCart.AnimationSpeed = 0.03!
+        Me.btnAddToCart.BackColor = System.Drawing.Color.Transparent
         Me.btnAddToCart.BaseColor = System.Drawing.Color.FromArgb(CType(CType(173, Byte), Integer), CType(CType(196, Byte), Integer), CType(CType(206, Byte), Integer))
         Me.btnAddToCart.BorderColor = System.Drawing.Color.Black
         Me.btnAddToCart.CheckedBaseColor = System.Drawing.Color.Gray
@@ -375,6 +384,7 @@ Partial Class frmPOS
         Me.btnAddToCart.OnHoverImage = Nothing
         Me.btnAddToCart.OnHoverLineColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.btnAddToCart.OnPressedColor = System.Drawing.Color.Black
+        Me.btnAddToCart.Radius = 10
         Me.btnAddToCart.Size = New System.Drawing.Size(97, 86)
         Me.btnAddToCart.TabIndex = 5
         Me.btnAddToCart.Text = "Add to Cart"

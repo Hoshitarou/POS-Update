@@ -31,7 +31,7 @@ Public Class frmpayment
 
     Private Sub txtpaid_TextChanged(sender As Object, e As EventArgs) Handles txtpaid.TextChanged
         Dim change As Double
-        change = Val(txtpaid.Text) - Val(lblGrandtotal.Text)
+        change = Val(txtpaid.Text) - Val(lblGrandTotal.Text)
         lblChange.Text = Format(Val(change), "0.00")
     End Sub
 
@@ -44,8 +44,16 @@ Public Class frmpayment
             frmPOS.lblMOP.Text = Me.cboMOP.Text
             frmPOS.lblRefnum.Text = Me.txtRefNo.Text
             Me.Close()
+            Call cleardata()
+
         End If
     End Sub
 
+    Private Sub cleardata()
+        txtpaid.Text = " "
+        lblGrandTotal.Text = "0.00"
+        lblChange.Text = " "
+        txtRefNo.Text = " "
+    End Sub
 
 End Class

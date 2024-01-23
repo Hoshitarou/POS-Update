@@ -78,6 +78,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatabaseConnection.vb" />
+    <Compile Include="frmAddProducts.Designer.vb">
+      <DependentUpon>frmAddProducts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddProducts.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmDashboard.Designer.vb">
       <DependentUpon>frmDashboard.vb</DependentUpon>
     </Compile>
@@ -109,10 +115,10 @@
     <Compile Include="frmRegistration.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTransaction.Designer.vb">
-      <DependentUpon>frmTransaction.vb</DependentUpon>
+    <Compile Include="frmsales.Designer.vb">
+      <DependentUpon>frmsales.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmTransaction.vb">
+    <Compile Include="frmsales.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -133,6 +139,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmAddProducts.resx">
+      <DependentUpon>frmAddProducts.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDashboard.resx">
       <DependentUpon>frmDashboard.vb</DependentUpon>
     </EmbeddedResource>
@@ -148,8 +157,8 @@
     <EmbeddedResource Include="frmRegistration.resx">
       <DependentUpon>frmRegistration.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmTransaction.resx">
-      <DependentUpon>frmTransaction.vb</DependentUpon>
+    <EmbeddedResource Include="frmsales.resx">
+      <DependentUpon>frmsales.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

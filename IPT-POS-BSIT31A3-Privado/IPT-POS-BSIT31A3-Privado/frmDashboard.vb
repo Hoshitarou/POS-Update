@@ -22,4 +22,12 @@ Public Class frmDashboard
     Private Sub tssusername_Click(sender As Object, e As EventArgs) Handles tssusername.Click
 
     End Sub
+
+    Private Sub ProductsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ProductsToolStripMenuItem.Click
+        frmAddProducts.ShowDialog()
+    End Sub
+
+    Private Sub SalesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SalesToolStripMenuItem.Click
+        frmsales.ShowDialog()
+    End Sub
 End Class

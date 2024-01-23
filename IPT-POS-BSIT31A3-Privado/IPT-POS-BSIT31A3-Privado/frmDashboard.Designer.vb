@@ -25,6 +25,8 @@ Partial Class frmDashboard
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmDashboard))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ManageToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProductsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UserToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TransactionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.POSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReportsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -38,6 +40,7 @@ Partial Class frmDashboard
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.SalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
         CType(Me.GunaCirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -58,10 +61,23 @@ Partial Class frmDashboard
         '
         'ManageToolStripMenuItem
         '
+        Me.ManageToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProductsToolStripMenuItem, Me.UserToolStripMenuItem})
         Me.ManageToolStripMenuItem.ForeColor = System.Drawing.Color.Black
         Me.ManageToolStripMenuItem.Name = "ManageToolStripMenuItem"
         Me.ManageToolStripMenuItem.Size = New System.Drawing.Size(90, 25)
         Me.ManageToolStripMenuItem.Text = "Manage"
+        '
+        'ProductsToolStripMenuItem
+        '
+        Me.ProductsToolStripMenuItem.Name = "ProductsToolStripMenuItem"
+        Me.ProductsToolStripMenuItem.Size = New System.Drawing.Size(180, 26)
+        Me.ProductsToolStripMenuItem.Text = "Products"
+        '
+        'UserToolStripMenuItem
+        '
+        Me.UserToolStripMenuItem.Name = "UserToolStripMenuItem"
+        Me.UserToolStripMenuItem.Size = New System.Drawing.Size(180, 26)
+        Me.UserToolStripMenuItem.Text = "user"
         '
         'TransactionsToolStripMenuItem
         '
@@ -79,6 +95,7 @@ Partial Class frmDashboard
         '
         'ReportsToolStripMenuItem
         '
+        Me.ReportsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SalesToolStripMenuItem})
         Me.ReportsToolStripMenuItem.ForeColor = System.Drawing.Color.Black
         Me.ReportsToolStripMenuItem.Name = "ReportsToolStripMenuItem"
         Me.ReportsToolStripMenuItem.Size = New System.Drawing.Size(81, 25)
@@ -175,6 +192,12 @@ Partial Class frmDashboard
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "Welcome Back!"
         '
+        'SalesToolStripMenuItem
+        '
+        Me.SalesToolStripMenuItem.Name = "SalesToolStripMenuItem"
+        Me.SalesToolStripMenuItem.Size = New System.Drawing.Size(180, 26)
+        Me.SalesToolStripMenuItem.Text = "sales"
+        '
         'frmDashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -219,4 +242,7 @@ Partial Class frmDashboard
     Friend WithEvents Label1 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents LogOutToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ProductsToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents UserToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SalesToolStripMenuItem As ToolStripMenuItem
 End Class
