@@ -11,7 +11,6 @@ Public Class frmDashboard
     End Sub
 
 
-
     Private Sub LogOutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LogOutToolStripMenuItem.Click
         If MsgBox("Do you want to Logout", vbQuestion + vbYesNo) = vbYes Then
             Me.Close()
@@ -19,9 +18,6 @@ Public Class frmDashboard
 
     End Sub
 
-    Private Sub tssusername_Click(sender As Object, e As EventArgs) Handles tssusername.Click
-
-    End Sub
 
     Private Sub ProductsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ProductsToolStripMenuItem.Click
         frmAddProducts.ShowDialog()

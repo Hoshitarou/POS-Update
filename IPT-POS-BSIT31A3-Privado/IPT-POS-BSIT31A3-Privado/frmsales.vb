@@ -12,14 +12,12 @@ Public Class frmsales
     Private Sub listotal()
         Dim result As Double = 0
         For j As Integer = 0 To ListView1.Items.Count - 1 Step +1
-            result += CInt(ListView1.Items(j).SubItems(4).Text)
+            result += CInt(ListView1.Items(j).SubItems(3).Text)
         Next
         lblgrandtotal.Text = result.ToString("0.00")
 
 
     End Sub
-
-
 
     Private Sub loadsales()
 
@@ -48,5 +46,9 @@ Public Class frmsales
 
     Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
         Me.Close()
+    End Sub
+
+    Private Sub ListView1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListView1.SelectedIndexChanged
+
     End Sub
 End Class

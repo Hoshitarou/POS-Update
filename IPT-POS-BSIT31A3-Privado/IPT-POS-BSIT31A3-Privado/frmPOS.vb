@@ -219,4 +219,12 @@ Public Class frmPOS
     Private Sub btncancel_Click(sender As Object, e As EventArgs) Handles btncancel.Click
         Me.Close()
     End Sub
+
+    Private Sub lblgtotal_Click(sender As Object, e As EventArgs) Handles lblgtotal.Click
+
+    End Sub
+
+    Private Sub ListView1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListView1.SelectedIndexChanged
+
+    End Sub
 End Class

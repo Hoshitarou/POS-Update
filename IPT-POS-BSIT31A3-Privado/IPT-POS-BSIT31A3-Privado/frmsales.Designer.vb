@@ -25,6 +25,8 @@ Partial Class frmsales
         Me.GunaElipsePanel1 = New Guna.UI.WinForms.GunaElipsePanel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.GunaElipsePanel2 = New Guna.UI.WinForms.GunaElipsePanel()
+        Me.lblgrandtotal = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.ListView1 = New System.Windows.Forms.ListView()
         Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader2 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
@@ -40,8 +42,6 @@ Partial Class frmsales
         Me.ColumnHeader13 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader14 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.btnCancel = New Guna.UI.WinForms.GunaButton()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.lblgrandtotal = New System.Windows.Forms.Label()
         Me.GunaElipsePanel1.SuspendLayout()
         Me.GunaElipsePanel2.SuspendLayout()
         Me.SuspendLayout()
@@ -79,6 +79,28 @@ Partial Class frmsales
         Me.GunaElipsePanel2.Radius = 20
         Me.GunaElipsePanel2.Size = New System.Drawing.Size(441, 72)
         Me.GunaElipsePanel2.TabIndex = 13
+        '
+        'lblgrandtotal
+        '
+        Me.lblgrandtotal.AutoSize = True
+        Me.lblgrandtotal.Font = New System.Drawing.Font("Century Gothic", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblgrandtotal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lblgrandtotal.Location = New System.Drawing.Point(302, 19)
+        Me.lblgrandtotal.Name = "lblgrandtotal"
+        Me.lblgrandtotal.Size = New System.Drawing.Size(67, 33)
+        Me.lblgrandtotal.TabIndex = 14
+        Me.lblgrandtotal.Text = "0.00"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label1.Location = New System.Drawing.Point(86, 19)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(197, 33)
+        Me.Label1.TabIndex = 13
+        Me.Label1.Text = "Total Amount:"
         '
         'ListView1
         '
@@ -185,28 +207,6 @@ Partial Class frmsales
         Me.btnCancel.TabIndex = 50
         Me.btnCancel.Text = "Cancel"
         Me.btnCancel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label1.Location = New System.Drawing.Point(86, 19)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(197, 33)
-        Me.Label1.TabIndex = 13
-        Me.Label1.Text = "Total Amount:"
-        '
-        'lblgrandtotal
-        '
-        Me.lblgrandtotal.AutoSize = True
-        Me.lblgrandtotal.Font = New System.Drawing.Font("Century Gothic", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblgrandtotal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.lblgrandtotal.Location = New System.Drawing.Point(302, 19)
-        Me.lblgrandtotal.Name = "lblgrandtotal"
-        Me.lblgrandtotal.Size = New System.Drawing.Size(67, 33)
-        Me.lblgrandtotal.TabIndex = 14
-        Me.lblgrandtotal.Text = "0.00"
         '
         'frmsales
         '

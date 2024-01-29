@@ -12,20 +12,24 @@ Public Class frmLogin
         cmd = New OleDbCommand(sql, cn)
         dr = cmd.ExecuteReader
         If dr.Read Then
-
             frmDashboard.tssusername.Text = txtUsername.Text
             frmPOS.lblcashiername.Text = txtUsername.Text
             frmDashboard.tssRole.Text = lblRole.Text
-            frmDashboard.ShowDialog()
+
+            If lblRole.Text = "IT" Then
+                frmDashboard.ShowDialog()
+
+            Else
+                lblRole.Text = "Cashier"
+                frmPOS.ShowDialog()
+
+            End If
+
         Else
             MsgBox("Wrong Password", MsgBoxStyle.Exclamation)
         End If
+
     End Sub
-
-
-
-
-
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Me.Close()

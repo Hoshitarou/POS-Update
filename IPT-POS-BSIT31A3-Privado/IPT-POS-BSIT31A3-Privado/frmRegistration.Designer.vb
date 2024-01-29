@@ -159,7 +159,7 @@ Partial Class frmRegistration
         '
         Me.cboRole.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboRole.FormattingEnabled = True
-        Me.cboRole.Items.AddRange(New Object() {"IT", "Cashier"})
+        Me.cboRole.Items.AddRange(New Object() {"IT", "Cashier", "Admin"})
         Me.cboRole.Location = New System.Drawing.Point(213, 392)
         Me.cboRole.Name = "cboRole"
         Me.cboRole.Size = New System.Drawing.Size(186, 28)
